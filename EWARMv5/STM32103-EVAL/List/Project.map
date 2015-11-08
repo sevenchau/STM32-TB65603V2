@@ -1,0 +1,600 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.70.1.5641/W32 for ARM               29/Jul/2015  01:17:26 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉         #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Exe\Project.out       #
+#    Map file     =  G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉         #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\List\Project.map      #
+#    Command line =  "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\clpd_clk.o"       #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\config_model.o"   #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\core_cm3.o"       #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\main.o"           #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\misc.o"           #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\queue.o"          #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\st_flashdriver.o" #
+#                     "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉       #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\startup_stm32f10x #
+#                    _md.o" "G:\云盘同步文件夹\同步ing文件\0001               #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stepcurv #
+#                    e algorithm.o" "G:\云盘同步文件夹\同步ing文件\0001       #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stepper_ #
+#                    motor.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_adc.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_crc.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_dac.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_dma.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_exti.o" "G:\云盘同步文件夹\同步ing文件\0001            #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_flash.o" "G:\云盘同步文件夹\同步ing文件\0001           #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_gpio.o" "G:\云盘同步文件夹\同步ing文件\0001            #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_it.o" "G:\云盘同步文件夹\同步ing文件\0001              #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_iwdg.o" "G:\云盘同步文件夹\同步ing文件\0001            #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_pwr.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_rcc.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_tim.o" "G:\云盘同步文件夹\同步ing文件\0001             #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_usart.o" "G:\云盘同步文件夹\同步ing文件\0001           #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\stm32f10 #
+#                    x_wwdg.o" "G:\云盘同步文件夹\同步ing文件\0001            #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj\sys.o"   #
+#                    "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉        #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\system_stm32f10x. #
+#                    o" "G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉     #
+#                    步进电机\firmware\TB65603V2_DERIVER - V1.0.10-           #
+#                    增加急停选项\EWARMv5\STM32103-EVAL\Obj\usart1_reader.o"  #
+#                    --redirect _Printf=_PrintfTiny --redirect                #
+#                    _Scanf=_ScanfSmall -o "G:\云盘同步文件夹\同步ing文件\000 #
+#                    1 联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -    #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Exe\Project. #
+#                    out" --map "G:\云盘同步文件夹\同步ing文件\0001           #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\List\Project #
+#                    .map" --config "G:\云盘同步文件夹\同步ing文件\0001       #
+#                    联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER -      #
+#                    V1.0.10- 增加急停选项\EWARMv5\STM32F10x_FLASH.icf"       #
+#                    --semihosting --entry __iar_program_start --vfe          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xec
+  .intvec            ro code  0x08000000    0xec  startup_stm32f10x_md.o [1]
+                            - 0x080000ec    0xec
+
+"P1":                                     0x4dac
+  .text              ro code  0x080000ec  0x15a4  stepper_motor.o [1]
+  .text              ro code  0x08001690   0x390  stm32f10x_rcc.o [1]
+  .text              ro code  0x08001a20   0x1b4  stm32f10x_gpio.o [1]
+  .text              ro code  0x08001bd4   0x486  stm32f10x_tim.o [1]
+  .text              ro code  0x0800205a    0x2e  copy_init3.o [5]
+  .text              ro code  0x08002088    0x30  I32ToDbl.o [4]
+  .text              ro code  0x080020b8   0x246  DblDiv.o [4]
+  .text              ro code  0x080022fe    0x22  zero_init3.o [5]
+  .text              ro code  0x08002320   0x1a2  DblMul.o [4]
+  .text              ro code  0x080024c4    0x4c  DblToI32.o [4]
+  .text              ro code  0x08002510   0x372  sys.o [1]
+  .text              ro code  0x08002884   0x1dc  stm32f10x_flash.o [1]
+  .text              ro code  0x08002a60    0x84  misc.o [1]
+  .text              ro code  0x08002ae4    0xcc  stm32f10x_exti.o [1]
+  .text              ro code  0x08002bb0   0xc32  main.o [1]
+  .text              ro code  0x080037e4    0x9c  clpd_clk.o [1]
+  .text              ro code  0x08003880   0x748  st_flashdriver.o [1]
+  .text              ro code  0x08003fc8   0x2d8  stepcurve algorithm.o [1]
+  .text              ro code  0x080042a0   0x27a  usart1_reader.o [1]
+  .text              ro code  0x0800451a    0x14  memset.o [3]
+  .text              ro code  0x0800452e     0xc  memcpy.o [3]
+  .text              ro code  0x0800453c    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x0800456c    0xcc  config_model.o [1]
+  .text              ro code  0x08004638    0x98  queue.o [1]
+  .text              ro code  0x080046d0   0x244  stm32f10x_usart.o [1]
+  .text              ro code  0x08004914    0x66  ABImemset.o [5]
+  .text              ro code  0x0800497c    0x76  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x080049f4   0x1f8  stm32f10x_it.o [1]
+  .text              ro code  0x08004bec    0x1c  stm32f10x_dma.o [1]
+  .rodata            const    0x08004c08   0x100  usart1_reader.o [1]
+  .text              ro code  0x08004d08    0x28  data_init.o [5]
+  .iar.init_table    const    0x08004d30    0x24  - Linker created -
+  .text              ro code  0x08004d54    0x1a  cmain.o [5]
+  .text              ro code  0x08004d6e     0x4  low_level_init.o [3]
+  .text              ro code  0x08004d72     0x4  exit.o [3]
+  .text              ro code  0x08004d78     0xa  cexit.o [5]
+  .text              ro code  0x08004d84    0x14  exit.o [6]
+  .text              ro code  0x08004d98     0xc  cstartup_M.o [5]
+  .rodata            const    0x08004da4     0x8  stepper_motor.o [1]
+  .text              ro code  0x08004dac     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004db0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004db4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004db8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dbc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dc0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dc4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dc8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dcc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dd0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dd4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dd8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004ddc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004de0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004de4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004de8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dec     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004df0     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004df4     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004df8     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004dfc     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e00     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e04     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e08     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e0c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e10     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e14     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e18     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e1c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e20     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e24     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e28     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e2c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e30     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e34     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e38     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e3c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e40     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e44     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e48     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e4c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e50     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e54     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e58     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e5c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e60     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e64     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e68     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e6c     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e70     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e74     0x4  startup_stm32f10x_md.o [1]
+  .text              ro code  0x08004e78     0x4  startup_stm32f10x_md.o [1]
+  .rodata            const    0x08004e7c     0x0  zero_init3.o [5]
+  .rodata            const    0x08004e7c     0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x08004e7c    0x1c  <for P2 s0>
+                            - 0x08004e98  0x4dac
+
+"P2", part 1 of 3:                          0x1c
+  P2 s0                       0x20000000    0x1c  <Init block>
+    .data            inited   0x20000000    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x20000010     0x4  stepper_motor.o [1]
+    .data            inited   0x20000014     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20000018     0x1  st_flashdriver.o [1]
+    .data            inited   0x20000019     0x1  stepper_motor.o [1]
+                            - 0x2000001c    0x1c
+
+"P2", part 2 of 3:                        0x19f4
+  .bss               zero     0x2000001c   0x7f8  stepper_motor.o [1]
+  .bss               zero     0x20000814   0x3fc  stepcurve algorithm.o [1]
+  .bss               zero     0x20000c10   0x3fc  stepcurve algorithm.o [1]
+  .bss               zero     0x2000100c   0x3fc  stepcurve algorithm.o [1]
+  .bss               zero     0x20001408   0x3fc  stepcurve algorithm.o [1]
+  .bss               zero     0x20001804    0x98  usart1_reader.o [1]
+  .bss               zero     0x2000189c    0x48  main.o [1]
+  .bss               zero     0x200018e4    0x48  main.o [1]
+  .bss               zero     0x2000192c    0x48  st_flashdriver.o [1]
+  .bss               zero     0x20001978    0x38  stepcurve algorithm.o [1]
+  .bss               zero     0x200019b0    0x20  stm32f10x_it.o [1]
+  .bss               zero     0x200019d0    0x14  usart1_reader.o [1]
+  .bss               zero     0x200019e4     0x8  usart1_reader.o [1]
+  .bss               zero     0x200019ec     0x4  main.o [1]
+  .bss               zero     0x200019f0     0x4  st_flashdriver.o [1]
+  .bss               zero     0x200019f4     0x4  stepper_motor.o [1]
+  .bss               zero     0x200019f8     0x4  stepper_motor.o [1]
+  .bss               zero     0x200019fc     0x4  stepper_motor.o [1]
+  .bss               zero     0x20001a00     0x4  sys.o [1]
+  .bss               zero     0x20001a04     0x1  stepper_motor.o [1]
+  .bss               zero     0x20001a05     0x1  stm32f10x_it.o [1]
+  .bss               zero     0x20001a06     0x1  stm32f10x_it.o [1]
+  .bss               zero     0x20001a07     0x1  stm32f10x_it.o [1]
+  .bss               zero     0x20001a08     0x1  stm32f10x_it.o [1]
+                            - 0x20001a09  0x19ed
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20001a10   0x400  <Block>
+    CSTACK           uninit   0x20001a10   0x400  <Block tail>
+                            - 0x20001e10   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x19ed:
+          0x2000001c  0x19ed
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1c (107% of destination):
+          0x08004e7c    0x1c
+    1 destination range, total size 0x1a:
+          0x20000000    0x1a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER - V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj: [1]
+    clpd_clk.o                  156
+    config_model.o              204
+    main.o                    3 122               148
+    misc.o                      132
+    queue.o                     152
+    st_flashdriver.o          1 864        1       77
+    startup_stm32f10x_md.o      444
+    stepcurve algorithm.o       728             4 136
+    stepper_motor.o           5 540       13    2 058
+    stm32f10x_dma.o              28
+    stm32f10x_exti.o            204
+    stm32f10x_flash.o           476
+    stm32f10x_gpio.o            436
+    stm32f10x_it.o              504                36
+    stm32f10x_rcc.o             912       20       20
+    stm32f10x_tim.o           1 158
+    stm32f10x_usart.o           580
+    sys.o                       882                 4
+    usart1_reader.o             634      256      180
+    -------------------------------------------------
+    Total:                   18 156      290    6 659
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    memcpy.o                     12
+    memset.o                     20
+    -------------------------------------------------
+    Total:                       40
+
+m7M_tl.a: [4]
+    DblCmpGe.o                   46
+    DblDiv.o                    582
+    DblMul.o                    418
+    DblToI32.o                   76
+    I32ToDbl.o                   48
+    -------------------------------------------------
+    Total:                    1 170
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       118
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      388
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         18                 4
+    Linker created                        38    1 024
+-----------------------------------------------------
+    Grand Total:             19 792      328    7 687
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08004d55         Code  Gb  cmain.o [5]
+ADCPrescTable           0x20000014    0x4  Data  Lc  stm32f10x_rcc.o [1]
+APBAHBPrescTable        0x20000000   0x10  Data  Lc  stm32f10x_rcc.o [1]
+AxisChoice              0x20000019    0x1  Data  Gb  stepper_motor.o [1]
+BusFault_Handler        0x080049fb    0x2  Code  Gb  stm32f10x_it.o [1]
+CRC8                    0x080042a1   0x1e  Code  Gb  usart1_reader.o [1]
+CRC8Table               0x08004c08  0x100  Data  Gb  usart1_reader.o [1]
+CSTACK$$Base            0x20001a10          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001e10          --   Gb  - Linker created -
+CalculateSpeedTab       0x08003fc9  0x22a  Code  Lc  stepcurve algorithm.o [1]
+ConfigProcess           0x08002da9  0x9bc  Code  Gb  main.o [1]
+ConstTimPrescler        0x08004da4    0x8  Data  Gb  stepper_motor.o [1]
+DMA1_Channel5_IRQHandler
+                        0x08004aef    0xc  Code  Gb  stm32f10x_it.o [1]
+DMA_ClearITPendingBit   0x08004bed   0x10  Code  Gb  stm32f10x_dma.o [1]
+DebugMon_Handler        0x08004a01    0x2  Code  Gb  stm32f10x_it.o [1]
+EXTI0_IRQHandler        0x08004aa9   0x18  Code  Gb  stm32f10x_it.o [1]
+EXTI2_IRQHandler        0x08004a49   0x60  Code  Gb  stm32f10x_it.o [1]
+EXTI_ClearITPendingBit  0x08002b93    0x6  Code  Gb  stm32f10x_exti.o [1]
+EXTI_GetITStatus        0x08002b6f   0x24  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x08002ae5   0x8a  Code  Gb  stm32f10x_exti.o [1]
+FLASHStatus             0x20000018    0x1  Data  Gb  st_flashdriver.o [1]
+FLASH_ClearFlag         0x080029c3    0x8  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ErasePage         0x080028e5   0x64  Code  Gb  stm32f10x_flash.o [1]
+FLASH_GetStatus         0x080029cb   0x2c  Code  Gb  stm32f10x_flash.o [1]
+FLASH_Lock              0x080028d3   0x12  Code  Gb  stm32f10x_flash.o [1]
+FLASH_PrefetchBufferCmd
+                        0x0800289d   0x20  Code  Gb  stm32f10x_flash.o [1]
+FLASH_ProgramWord       0x08002949   0x7a  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x08002885   0x18  Code  Gb  stm32f10x_flash.o [1]
+FLASH_Unlock            0x080028bd   0x16  Code  Gb  stm32f10x_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08002a15   0x30  Code  Gb  stm32f10x_flash.o [1]
+FlashMsgInit            0x080039df  0x296  Code  Gb  st_flashdriver.o [1]
+FlashWriteBuf           0x200018e4   0x48  Data  Gb  main.o [1]
+FrequencyMultiplication
+                        0x20000010    0x4  Data  Gb  stepper_motor.o [1]
+GPIO_Configuration      0x0800267d  0x150  Code  Gb  sys.o [1]
+GPIO_EXTILineConfig     0x08001b7b   0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x08001a21   0xc8  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x08001b0b   0x70  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x08001ae9   0x16  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08001b05    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08001aff    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GetModeInquiry          0x0800280f    0xc  Code  Gb  sys.o [1]
+HardFault_Handler       0x080049f7    0x2  Code  Gb  stm32f10x_it.o [1]
+IntFrequencyMAxisCapture
+                        0x08001489  0x1d6  Code  Gb  stepper_motor.o [1]
+IntSpeedCalculation     0x08000495   0xce  Code  Gb  stepper_motor.o [1]
+Kick_Dog                0x08002bcf    0x2  Code  Gb  main.o [1]
+MemManage_Handler       0x080049f9    0x2  Code  Gb  stm32f10x_it.o [1]
+ModeInquiryInit         0x080027cd   0x42  Code  Gb  sys.o [1]
+MotorRunningDisable     0x0800144f   0x2c  Code  Gb  stepper_motor.o [1]
+MotorRunningEnable      0x0800147b    0xe  Code  Gb  stepper_motor.o [1]
+NMI_Handler             0x080049f5    0x2  Code  Gb  stm32f10x_it.o [1]
+NOR_FlashWriteBuf       0x2000189c   0x48  Data  Gb  main.o [1]
+NVIC_Configuration      0x080025f9   0x84  Code  Gb  sys.o [1]
+NVIC_Init               0x08002a6b   0x66  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08002a61    0xa  Code  Gb  misc.o [1]
+NVIC_SetPriority        0x08002511   0x22  Code  Lc  sys.o [1]
+NVIC_SystemReset        0x08002bb1   0x18  Code  Lc  main.o [1]
+PendSV_Handler          0x08004a03    0x2  Code  Gb  stm32f10x_it.o [1]
+PerStepTimConfigInit    0x08000271  0x224  Code  Gb  stepper_motor.o [1]
+PulsesNumber            0x200019f4    0x4  Data  Gb  stepper_motor.o [1]
+Queue_Init              0x08004639   0x10  Code  Gb  queue.o [1]
+Qusart1                 0x200019e4    0x8  Data  Gb  usart1_reader.o [1]
+Qusart1Tcb              0x20001804   0x98  Data  Gb  usart1_reader.o [1]
+RCC_ADCCLKConfig        0x08001801   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x0800192f   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x0800196f   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x0800190f   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800194f   0x20  Code  Gb  stm32f10x_rcc.o [1]
+RCC_Configuration       0x08002575   0x84  Code  Gb  sys.o [1]
+RCC_DeInit              0x08001691   0x5e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x0800184f   0xc0  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x0800198f   0x44  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetSYSCLKSource     0x080017b9    0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x080017c3   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x080016ef   0x54  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSICmd              0x0800177d    0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_LSEConfig           0x08001815   0x2a  Code  Gb  stm32f10x_rcc.o [1]
+RCC_LSICmd              0x0800183f    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config         0x080017d7   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x080017eb   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x0800179d    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x08001787   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_RTCCLKCmd           0x08001847    0x8  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x080017a5   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x08001743   0x3a  Code  Gb  stm32f10x_rcc.o [1]
+ReFarctory              0x08003c75  0x242  Code  Gb  st_flashdriver.o [1]
+ReadMsgFromFlash        0x08003f11   0x9e  Code  Gb  st_flashdriver.o [1]
+Region$$Table$$Base     0x08004d30          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08004d54          --   Gb  - Linker created -
+SVC_Handler             0x080049ff    0x2  Code  Gb  stm32f10x_it.o [1]
+SoftReset               0x080037d5    0xe  Code  Gb  main.o [1]
+SpeedStatus             0x20001a04    0x1  Data  Gb  stepper_motor.o [1]
+StopTimmer              0x08000597   0x36  Code  Gb  stepper_motor.o [1]
+SysTick_Config          0x08002533   0x30  Code  Lc  sys.o [1]
+SysTick_Config1         0x08002563   0x12  Code  Gb  sys.o [1]
+SysTick_Handler         0x08004a05   0x44  Code  Gb  stm32f10x_it.o [1]
+T1ParaCfg               0x2000001c  0x7f8  Data  Gb  stepper_motor.o [1]
+TIM1_CC_IRQHandler      0x08004ae3    0xc  Code  Gb  stm32f10x_it.o [1]
+TIM1_UP_IRQHandler      0x08004ac1   0x22  Code  Gb  stm32f10x_it.o [1]
+TIM_ARRPreloadConfig    0x08001f99   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_BDTRStructInit      0x08001ed9   0x1e  Code  Gb  stm32f10x_tim.o [1]
+TIM_CCxCmd              0x08002001   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearFlag           0x0800201d    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_ClearITPendingBit   0x08002053    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08001ef7   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_CtrlPWMOutputs      0x08001f13   0x22  Code  Gb  stm32f10x_tim.o [1]
+TIM_DeInit              0x08001bd5   0xce  Code  Gb  stm32f10x_tim.o [1]
+TIM_ForcedOC1Config     0x08001f4d   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_ForcedOC2Config     0x08001f5f   0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_ForcedOC3Config     0x08001f73   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_ForcedOC4Config     0x08001f85   0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x08002025   0x2e  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x08001f35   0x18  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1Init             0x08001cd9   0x78  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC1PreloadConfig    0x08001fb5   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2Init             0x08001d51   0x86  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC2PreloadConfig    0x08001fc7   0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3Init             0x08001dd7   0x84  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC3PreloadConfig    0x08001fdb   0x12  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4Init             0x08001e5b   0x62  Code  Gb  stm32f10x_tim.o [1]
+TIM_OC4PreloadConfig    0x08001fed   0x14  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08001ca3   0x36  Code  Gb  stm32f10x_tim.o [1]
+TMPBUF                  0x200019d0   0x14  Data  Gb  usart1_reader.o [1]
+TestSpeed               0x080041f3   0x8c  Code  Gb  stepcurve algorithm.o [1]
+Tim1_Configuration      0x08000921  0xb2e  Code  Gb  stepper_motor.o [1]
+Tim1_init               0x080000ed  0x184  Code  Gb  stepper_motor.o [1]
+Tim4_init               0x080037e5   0x9c  Code  Gb  clpd_clk.o [1]
+TimeTick                0x20001a05    0x1  Data  Gb  stm32f10x_it.o [1]
+USART1_Config           0x080045b3   0x4c  Code  Gb  config_model.o [1]
+USART1_GPIOConfig       0x0800456d   0x46  Code  Lc  config_model.o [1]
+USART1_IRQHandler       0x08004afb   0xca  Code  Gb  stm32f10x_it.o [1]
+USART1_NVIC_Configuration
+                        0x08004609   0x30  Code  Gb  config_model.o [1]
+USART_ClearITPendingBit
+                        0x080048fd   0x18  Code  Gb  stm32f10x_usart.o [1]
+USART_Cmd               0x0800480d   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_DeInit            0x080046d1   0x90  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus     0x08004887   0x14  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x0800489b   0x62  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x08004829   0x4e  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08004761   0x98  Code  Gb  stm32f10x_usart.o [1]
+USART_ReceiveData       0x0800487f    0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x08004877    0x8  Code  Gb  stm32f10x_usart.o [1]
+Uc1Buf                  0x200019b0   0x20  Data  Lc  stm32f10x_it.o [1]
+Uc1Len                  0x20001a06    0x1  Data  Lc  stm32f10x_it.o [1]
+Uc1TimeoutCnt           0x20001a07    0x1  Data  Lc  stm32f10x_it.o [1]
+Uc1_status              0x20001a08    0x1  Data  Lc  stm32f10x_it.o [1]
+UsageFault_Handler      0x080049fd    0x2  Code  Gb  stm32f10x_it.o [1]
+Usart1EventDelqueue     0x0800435d  0x116  Code  Gb  usart1_reader.o [1]
+Usart1EventEnqueue      0x0800431d   0x40  Code  Gb  usart1_reader.o [1]
+Usart1ModeInit          0x080042bf   0x20  Code  Gb  usart1_reader.o [1]
+Usart1RxIntEnable       0x080042df   0x10  Code  Gb  usart1_reader.o [1]
+Usart1SendMsgDataPackage
+                        0x08004489   0x92  Code  Gb  usart1_reader.o [1]
+Usart1Tx                0x080042ef   0x2e  Code  Gb  usart1_reader.o [1]
+WDG_SP706_Enable        0x08002bcb    0x2  Code  Gb  main.o [1]
+WDG_SP706_GPIO_Configration
+                        0x08002bc9    0x2  Code  Gb  main.o [1]
+Wdt_Init                0x08002bcd    0x2  Code  Gb  main.o [1]
+WriteMsgToFlash         0x08003eb7   0x5a  Code  Gb  st_flashdriver.o [1]
+__aeabi_cdrcmple        0x0800453d         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x080024c5         Code  Gb  DblToI32.o [4]
+__aeabi_ddiv            0x080020b9         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x08002321         Code  Gb  DblMul.o [4]
+__aeabi_i2d             0x08002089         Code  Gb  I32ToDbl.o [4]
+__aeabi_memset          0x08004915         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x0800209d         Code  Gb  I32ToDbl.o [4]
+__cmain                 0x08004d55         Code  Gb  cmain.o [5]
+__exit                  0x08004d85   0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x08004915         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0800491d         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x0800205b   0x2e  Code  Gb  copy_init3.o [5]
+__iar_d2uiz             0x080024f1         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x08004d09   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08004d99         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x080020a1         Code  Gb  I32ToDbl.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x0800497d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0800499d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0800499d         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x080022ff   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08004d6f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f10x_md.o [1]
+_call_main              0x08004d61         Code  Gb  cmain.o [5]
+_exit                   0x08004d79         Code  Gb  cexit.o [5]
+_main                   0x08004d6b         Code  Gb  cmain.o [5]
+_spd_config             0x080005cd  0x326  Code  Gb  stepper_motor.o [1]
+_stop_timmer            0x08000563   0x34  Code  Gb  stepper_motor.o [1]
+bcd_value               0x200019ec    0x4  Data  Gb  main.o [1]
+buzzerOff               0x08002be1   0x10  Code  Lc  main.o [1]
+buzzerOn                0x08002bd1   0x10  Code  Lc  main.o [1]
+cur_keep_cnt            0x20001408  0x3fc  Data  Gb  stepcurve algorithm.o [1]
+cur_per_dis             0x20000c10  0x3fc  Data  Gb  stepcurve algorithm.o [1]
+cur_total_dis           0x2000100c  0x3fc  Data  Gb  stepcurve algorithm.o [1]
+deQueue                 0x080046a3   0x2e  Code  Gb  queue.o [1]
+delay                   0x08002a45   0x1c  Code  Lc  stm32f10x_flash.o [1]
+delayms                 0x08002865   0x1e  Code  Gb  sys.o [1]
+enQueue                 0x08004675   0x2e  Code  Gb  queue.o [1]
+exit                    0x08004d73    0x4  Code  Gb  exit.o [3]
+flash_write_buf         0x2000192c   0x48  Data  Gb  st_flashdriver.o [1]
+isEmpty                 0x08004649   0x10  Code  Gb  queue.o [1]
+isFull                  0x08004659   0x1c  Code  Gb  queue.o [1]
+led_off                 0x08002829    0x8  Code  Gb  sys.o [1]
+led_toggle              0x0800281b    0xe  Code  Gb  sys.o [1]
+main                    0x08002bf1  0x1b8  Code  Gb  main.o [1]
+memcpy                  0x0800452f    0xc  Code  Gb  memcpy.o [3]
+memset                  0x0800451b   0x14  Code  Gb  memset.o [3]
+sped_tab                0x20000814  0x3fc  Data  Gb  stepcurve algorithm.o [1]
+st_FlashInit            0x08003881   0x50  Code  Lc  st_flashdriver.o [1]
+st_FlashRead            0x0800398b   0x54  Code  Gb  st_flashdriver.o [1]
+st_FlashWrite           0x080038d1   0xba  Code  Gb  st_flashdriver.o [1]
+stepSped                0x20001978   0x38  Data  Gb  stepcurve algorithm.o [1]
+u32_FlashAddr           0x200019f0    0x4  Data  Gb  st_flashdriver.o [1]
+
+
+[1] = G:\云盘同步文件夹\同步ing文件\0001 联盟科技\手脉 步进电机\firmware\TB65603V2_DERIVER - V1.0.10- 增加急停选项\EWARMv5\STM32103-EVAL\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  19 792 bytes of readonly  code memory
+     328 bytes of readonly  data memory
+   7 687 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
